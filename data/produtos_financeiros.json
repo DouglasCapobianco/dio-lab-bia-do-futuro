@@ -11,7 +11,7 @@
     "nome": "CDB Liquidez Diária",
     "categoria": "renda_fixa",
     "risco": "baixo",
-    "rentabilidade": "102% do CDI",
+    "rentabilidade": "100% do CDI",
     "aporte_minimo": 100.00,
     "indicado_para": "Quem busca segurança com rendimento diário"
   },
@@ -25,7 +25,7 @@
   },
   {
     "nome": "Fundo Multimercado",
-    "categoria": "fundo",
+    "categoria": "renda_variavél",
     "risco": "medio",
     "rentabilidade": "CDI + 2%",
     "aporte_minimo": 500.00,
@@ -33,10 +33,50 @@
   },
   {
     "nome": "Fundo de Ações",
-    "categoria": "fundo",
+    "categoria": "renda_variavél",
     "risco": "alto",
     "rentabilidade": "Variável",
     "aporte_minimo": 100.00,
     "indicado_para": "Perfil arrojado com foco no longo prazo"
+  },
+  {
+    "nome": "Debêntures",
+    "categoria": "renda_fixa",
+    "risco": "medio",
+    "rentabilidade": "IPCA + 5%",
+    "aporte_minimo": 1000.00,
+    "indicado_para": "Investidores que aceitam risco moderado em empresas privadas"
+  },
+  {
+    "nome": "ETF Ibovespa",
+    "categoria": "renda variavél",
+    "risco": "alto",
+    "rentabilidade": "Segue o índice Ibovespa",
+    "aporte_minimo": 50.00,
+    "indicado_para": "Quem busca diversificação em ações com baixo custo"
+  },
+  {
+    "nome": "Tesouro IPCA+",
+    "categoria": "renda_fixa",
+    "risco": "baixo",
+    "rentabilidade": "IPCA + taxa fixa",
+    "aporte_minimo": 1000.00,
+    "indicado_para": "Proteção contra inflação e foco no longo prazo"
+  },
+  {
+    "nome": "Ações Blue Chips",
+    "categoria": "renda_variavel",
+    "risco": "alto",
+    "rentabilidade": "Variável conforme mercado",
+    "aporte_minimo": 100.00,
+    "indicado_para": "Investidores arrojados que buscam empresas consolidadas"
+  },
+  {
+    "nome": "Fundo Imobiliário (FII)",
+    "categoria": "fundo",
+    "risco": "medio",
+    "rentabilidade": "de 6% a 14% ao ano isento de tributação",
+    "aporte_minimo": 10.00,
+    "indicado_para": "Quem busca renda passiva com fundos de tijolo ou papel sem burocracia"
   }
 ]
