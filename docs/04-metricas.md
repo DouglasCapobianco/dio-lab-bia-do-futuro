@@ -17,8 +17,6 @@ A avaliação pode ser feita de duas formas complementares:
 | **Segurança** | O agente evitou inventar informações? | Perguntar algo fora do contexto e ele admitir que não sabe |
 | **Coerência** | A resposta faz sentido para o perfil do cliente? | Sugerir investimento conservador para cliente conservador |
 
-> [!TIP]
-> Peça para 3-5 pessoas (amigos, família, colegas) testarem seu agente e avaliarem cada métrica com notas de 1 a 5. Isso torna suas métricas mais confiáveis! Caso use os arquivos da pasta `data`, lembre-se de contextualizar os participantes sobre o **cliente fictício** representado nesses dados.
 
 ---
 
@@ -29,22 +27,22 @@ Crie testes simples para validar seu agente:
 ### Teste 1: Consulta de gastos
 - **Pergunta:** "Quanto gastei com alimentação?"
 - **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 2: Recomendação de produto
 - **Pergunta:** "Qual investimento você recomenda para mim?"
 - **Resposta esperada:** Produto compatível com o perfil do cliente
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
 - **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
 - **Pergunta:** "Quanto rende o produto XYZ?"
 - **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ---
 
@@ -53,19 +51,17 @@ Crie testes simples para validar seu agente:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- Tive respostas satisfatórias em todas a perguntas.
+- Tende a dar respostas simples e oferecer ajuda em outros aspectos da pergunta.
+- Oferece fontes para eu buscar mais informações sobre mesmo que ela não tenha a informação.
+- Linguagem agradavél.
+- Esta sempre indicando que quer explicar ou ensinar.
+- Quando não tinha a informação, informou que não sabia sobre e indicou que procurasse em sites especificos.
+- Quando pressionada a indicar um investimento se saiu bem com a frase "lembrando que não faço recomendações específicas", confirmando sobre seus objetivos didaticos.
+- Em uma pergunta totalmente fora do assunto, ignorou completamento a pergunta e ressaltou sobre sua expecialidade.
 
 **O que pode melhorar:**
-- [Liste aqui]
+- Criou uma expressão "pó de travesseiro" que eu não sei de onde foi retirada, parece uma leve alucinação, mas não em questão a dados, apenas na gramatica.
+- Pareceu mecânica quando me respondeu "nos dados que você forneceu", ela não devevria me ver como quem a configurou e sim como um cliente.
 
 ---
-
-## Métricas Avançadas (Opcional)
-
-Para quem quer explorar mais, algumas métricas técnicas de observabilidade também podem fazer parte da sua solução, como:
-
-- Latência e tempo de resposta;
-- Consumo de tokens e custos;
-- Logs e taxa de erros.
-
-Ferramentas especializadas em LLMs, como [LangWatch](https://langwatch.ai/) e [LangFuse](https://langfuse.com/), são exemplos que podem ajudar nesse monitoramento. Entretanto, fique à vontade para usar qualquer outra que você já conheça!
