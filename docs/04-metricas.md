@@ -62,6 +62,6 @@ Após os testes, registre suas conclusões:
 
 **O que pode melhorar:**
 - Criou uma expressão "pó de travesseiro" que eu não sei de onde foi retirada, parece uma leve alucinação, mas não em questão a dados, apenas na gramatica.
-- Pareceu mecânica quando me respondeu "nos dados que você forneceu", ela não devevria me ver como quem a configurou e sim como um cliente.
+- Pareceu mecânica quando me respondeu "nos dados que você forneceu", ela não deveria me ver como quem a configurou e sim como um cliente.
 
 ---
